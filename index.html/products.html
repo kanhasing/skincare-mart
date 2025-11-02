@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Products - SkinCare Mart</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">💄 SkinCare Mart</div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="products.html" class="active">Products</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div class="cart">🛒 <span id="cart-count">0</span></div>
+  </header>
+
+  <section class="products-page">
+    <h1>Our Products</h1>
+
+    <!-- Sort dropdown -->
+    <div class="sort-container">
+      <label for="sort">Sort by:</label>
+      <select id="sort">
+        <option value="default">Default</option>
+        <option value="low-high">Price: Low to High</option>
+        <option value="high-low">Price: High to Low</option>
+      </select>
+    </div>
+
+    <!-- Product list -->
+    <div id="product-list">
+      <div class="product-card" data-price="399">
+        <img src="https://res.cloudinary.com/YOURNAME/image/upload/v1730501012/deep_clean_facewash.png" alt="Deep Clean Face Wash">
+        <h3>Deep Clean Face Wash</h3>
+        <p>₹399</p>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSe1F7SAvL9SkFdbz9GRIUoXjhVk-sKeZ1Mwnx5qF2mIotTlsQ/viewform" target="_blank"
+           style="display:inline-block; background-color:#ff1493; color:white; padding:10px 20px; border-radius:8px;">Buy Now</a>
+      </div>
+
+      <div class="product-card" data-price="899">
+        <img src="https://res.cloudinary.com/YOURNAME/image/upload/v1730501020/vitamin_c_serum.png" alt="Vitamin C Glow Serum">
+        <h3>Vitamin C Glow Serum</h3>
+        <p>₹899</p>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSe1F7SAvL9SkFdbz9GRIUoXjhVk-sKeZ1Mwnx5qF2mIotTlsQ/viewform" target="_blank"
+           style="display:inline-block; background-color:#ff1493; color:white; padding:10px 20px; border-radius:8px;">Buy Now</a>
+      </div>
+
+      <div class="product-card" data-price="499">
+        <img src="https://res.cloudinary.com/dyl7c6znz/image/upload/v1762081826/ChatGPT_Image_Node.png" alt="Charcoal Clay Mask">
+        <h3>Charcoal Clay Mask</h3>
+        <p>₹499</p>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSe1F7SAvL9SkFdbz9GRIUoXjhVk-sKeZ1Mwnx5qF2mIotTlsQ/viewform" target="_blank"
+           style="display:inline-block; background-color:#ff1493; color:white; padding:10px 20px; border-radius:8px;">Buy Now</a>
+      </div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
