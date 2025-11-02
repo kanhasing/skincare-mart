@@ -1,0 +1,131 @@
+/* SkinCare Mart Professional Style */
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff0f6;
+  color: #333;
+}
+
+/* HEADER */
+header {
+  background: #ffb6c1;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+nav a {
+  color: #fff;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.cart {
+  font-size: 1.2rem;
+}
+
+/* HERO SECTION */
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+  background: linear-gradient(135deg, #ffb6c1, #fff0f6);
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  color: #ff1493;
+}
+
+.hero p {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+}
+
+.btn-primary {
+  background: #ff1493;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.btn-primary:hover {
+  background: #ff69b4;
+}
+
+/* PRODUCTS */
+.products {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.products h2 {
+  color: #ff1493;
+  font-size: 2rem;
+  margin-bottom: 40px;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 30px;
+  padding: 0 40px;
+}
+
+.product-card {
+  background: white;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-10px);
+}
+
+.product-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.product-card button {
+  background: #ff1493;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.product-card button:hover {
+  background: #ff69b4;
+}
+
+/* FOOTER */
+footer {
+  background: #ffb6c1;
+  text-align: center;
+  padding: 20px;
+  color: white;
+  font-size: 0.9rem;
+  margin-top: 40px;
+}
